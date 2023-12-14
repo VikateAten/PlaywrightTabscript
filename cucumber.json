@@ -1,0 +1,25 @@
+{
+
+   
+    "default" :{
+    
+        "paths":[
+            "tests/features/"
+            
+        ],
+
+        "formatOptions":{ "snippetInterface": "async-await"},
+        "dryRun": false,
+        "publishQuiet" : false,
+        "require": ["tests/steps/*.ts","hooks/hooks.ts"],
+        "requireModule": ["ts-node/register"] ,
+       
+
+       
+        "format": [ "./reporter.js"]
+         
+    }
+
+  
+    
+}

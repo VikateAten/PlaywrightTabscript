@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "exceljs": "^4.4.0",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "allure-commandline": "^2.24.1",
+    "allure-cucumberjs": "^2.9.2",
+    "allure-js-commons": "^2.9.2",
+    "allure-playwright": "^2.9.2"
+  },
+  "scripts": {
+    "test": "cucumber-js test"
+  }
+}
