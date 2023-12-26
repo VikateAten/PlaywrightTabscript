@@ -30,4 +30,4 @@
     When Selecciono la opción Ingresar
     And Seleciono la opción Registrarme
     And Lleno datos para validar 
-    Then Datos correctos
+    Then Datos correctos - MODIFICADO
